@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+p.h{
+border-bottom:6px solid red;
+background-color:lightgrey;
+}
+p.one{
+border-style:solid;
+border-width:medium;
+border-color:red green blue yellow;
+}
+.center{
+text-align:center;
+color:violet;
+}
+body {
+background:#ffffff url("53.jpg") no-repeat right top;
+margin-right:200px;
+}
+h1{
+color:white;
+/* new page */
+text-align:center;
+}
+h1.large{
+font-size:300%;
+}
+p{
+font-family:verdana;
+font-size:18px;
+}
+</style>
+</head>
+<body>
+<h1 class="center large">welcome to page</h1>
+<p class="center">shokoofe shafiee</p>
+<p style="background-color:Tomato;">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages
+</p>
+<hr>
+<h3 style="background-color:rgba(255,99,71,0.6);">Cascading Style Sheets</h3>
+<p class="one">CSS has a simple syntax and uses a number of English keywords to specify the names of various style properties. A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a declaration block.</p>
+<p class="h">CSS was first proposed by Håkon Wium Lie on October 10, 1994. At the time, Lie was working with Tim Berners-Lee at CERN. Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1) being released in 1996. In particular, a proposal by Bert Bos was influential; he became co-author of CSS1, and is regarded as co-creator of CSS. Style sheets ...</p>
+</body>
+</html>
